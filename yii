@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+/**
+ * YiiChimp console bootstrap file.
+ *
+ * @copyright Copyright (c) 2017 Usha Singhai Neo Informatique Pvt. Ltd
+ * @license https://github.com/ushainformatique/yiichimp/blob/master/LICENSE.md
+ */
+defined('APPLICATION_PATH') or define('APPLICATION_PATH', dirname(__FILE__));
+
+defined('YII_DEBUG') or define('YII_DEBUG', true);
+defined('YII_ENV') or define('YII_ENV', 'dev');
+defined('VENDOR_PATH') or define('VENDOR_PATH', __DIR__ . '/' . 'vendor');
+defined('USNI_PATH') or define('USNI_PATH', VENDOR_PATH . '/ushainformatique/yiichimp');
+define('DS', DIRECTORY_SEPARATOR);
+
+require(__DIR__ . '/vendor/autoload.php');
+require(__DIR__ . '/vendor/yiisoft/yii2/Yii.php');
+
+require(USNI_PATH . '/library/config/bootstrap.php');
+
+$config = require(__DIR__ . '/config/console.php');
+
+$application = new usni\library\console\Application($config);
+$exitCode = $application->run();
+exit($exitCode);
