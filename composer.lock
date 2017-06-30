@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0401508efff6c17ee3ca446b77deb6cc",
+    "content-hash": "3ed33b87757b5ae392397053fa3355e8",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -417,6 +417,41 @@
             "time": "2017-05-19 18:47:58"
         },
         {
+            "name": "ushainformatique/yiichimp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ushainformatique/yiichimp.git",
+                "reference": "5152ad3263cb23e6994390461ce72d5137b6a76b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ushainformatique/yiichimp/zipball/5152ad3263cb23e6994390461ce72d5137b6a76b",
+                "reference": "5152ad3263cb23e6994390461ce72d5137b6a76b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Usha Informatique",
+                    "email": "ushainformatique@gmail.com"
+                }
+            ],
+            "description": "YiiChimp is a web development framework written on top of high performance yii2 framework.",
+            "keywords": [
+                "framework",
+                "yiichimp"
+            ],
+            "time": "2017-06-30 07:08:45"
+        },
+        {
             "name": "yiisoft/yii2",
             "version": "2.0.11.2",
             "source": {
@@ -522,12 +557,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "fe830200b069dfc03c5ece18e805ac46170edd37"
+                "reference": "5aa5bb57a8eb7ab61995eb20e2a7a398706d615f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/fe830200b069dfc03c5ece18e805ac46170edd37",
-                "reference": "fe830200b069dfc03c5ece18e805ac46170edd37",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/5aa5bb57a8eb7ab61995eb20e2a7a398706d615f",
+                "reference": "5aa5bb57a8eb7ab61995eb20e2a7a398706d615f",
                 "shasum": ""
             },
             "require": {
@@ -564,7 +599,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2017-04-18 23:57:19"
+            "time": "2017-06-26 19:42:30"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -739,12 +774,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "1d3a7cb5b85505cfe0a4e50abe9ae9da45c09574"
+                "reference": "9011b6e533811221fffebca2de822c5c87ad7dd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/1d3a7cb5b85505cfe0a4e50abe9ae9da45c09574",
-                "reference": "1d3a7cb5b85505cfe0a4e50abe9ae9da45c09574",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/9011b6e533811221fffebca2de822c5c87ad7dd9",
+                "reference": "9011b6e533811221fffebca2de822c5c87ad7dd9",
                 "shasum": ""
             },
             "require": {
@@ -778,7 +813,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2017-05-22T12:59:26+00:00"
+            "time": "2017-06-26T19:37:57+00:00"
         },
         {
             "name": "yiisoft/yii2-gii",
@@ -786,12 +821,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "11dbba735105a098f8e0b44b601f91c062fb9324"
+                "reference": "1196b29d67a38e1f84374e079de3509254cddb30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/11dbba735105a098f8e0b44b601f91c062fb9324",
-                "reference": "11dbba735105a098f8e0b44b601f91c062fb9324",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/1196b29d67a38e1f84374e079de3509254cddb30",
+                "reference": "1196b29d67a38e1f84374e079de3509254cddb30",
                 "shasum": ""
             },
             "require": {
@@ -831,7 +866,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2017-05-22T12:25:11+00:00"
+            "time": "2017-06-26T19:41:48+00:00"
         }
     ],
     "aliases": [],
